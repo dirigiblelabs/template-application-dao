@@ -17,7 +17,7 @@ exports.getTemplate = function (parameters) {
         sources: [{
             location: "/template-application-dao/dao/entity.js.template",
             action: "generate",
-            rename: "gen/dao/{{perspectiveName}}/{{fileName}}.js",
+            rename: "gen/dao/{{perspectiveName}}/{{name}}.js",
             engine: "velocity",
             collection: "models"
         }, {
